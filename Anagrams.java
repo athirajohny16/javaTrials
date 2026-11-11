@@ -18,6 +18,7 @@ public class Anagrams{
         String str1 = sc.nextLine();
         System.out.println("Enter the second string:");
         String str2 = sc.nextLine();
+        sc.close();
 
         boolean result = checkIfAnagram(str1,str2);
         if(result){
